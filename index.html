@@ -27,7 +27,7 @@
 <div id="page-intro" class="fade-in" >
   <div><img class="logo" src="/img/LOGO.png"></div>
 
-  <button id="show-invitation">Voir l'invitation</button>
+  <button id="show-invitation" onclick="playMusic()">Voir l'invitation</button>
 </div>
 
 <div id="invitation" class="fade-out" style="display: none;">
@@ -179,6 +179,14 @@
 </div>
 
 
+
+<audio id="myAudio" src="/musique/vehisheamda.mp3"></audio>
+<script>
+  function playMusic() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+  }
+</script>
 
 
 
