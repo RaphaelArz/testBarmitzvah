@@ -44,7 +44,6 @@ body{
   font-size: 6vw;
   text-align: center;
   margin-bottom: 1vw; /* Réduit l'espacement entre le texte hébreu et le logo */
-  font-family: ;
 }
 
 .logo {
@@ -171,7 +170,7 @@ body{
 #partieChabbat {
   width: 100%;
   height: 100%;
-  background-image: url("/img/background-Kotel.jpg");
+  background-image:radial-gradient( 200% 200% at center, rgb(255, 255, 255), rgba(255, 255, 255, 0.1)), url("/img/seferTorah.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -209,10 +208,66 @@ body{
   margin-bottom: 2vw;
   text-align: center; /* Centrer horizontalement */
 }
+#reponse {
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/marbleblancDoree.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: inset 0.1vw 0.1vw 0.1vw 0.1vw #eeb646;
+}
 
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+}
 
+.form-group {
+  margin-bottom: 10px;
+}
 
+label {
+  display: block;
+  margin-bottom: 5px;
+}
 
+input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 5px;
+}
 
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Pour inclure la bordure dans la largeur et la hauteur */
+  font-family: 'Berlin Sans FB', sans-serif; /* Utilisation de la police Berlin Sans FB */
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #dab984;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #d3b17a;
+}
 
 
