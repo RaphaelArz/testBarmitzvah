@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'Berlin Sans FB';
+  font-style: normal;
+  font-weight: normal;
+  src:  url('/police/BRLNSR.woff') format('woff');
+}
+@font-face {
+  font-family: 'Brush Script MT';
+  font-style: normal;
+  font-weight: normal;
+  src:  url('/police/BRUSHSCI.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'torah sofer';
+  font-style: normal;
+  font-weight: normal;
+  src:  url('/police/TORAH.TTF') format('truetype');
+}
+
+
+
+
+#premierPartie {
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/background-Kotel.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  flex-direction: column; /* Arrange les éléments en colonne */
+}
+body{
+  background-image: url("/img/background-Kotel.jpg");
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+
+}
+
+#textHebreu {
+  color: #8db6bb;
+  font-size: 6vw;
+  text-align: center;
+  margin-bottom: 1vw; /* Réduit l'espacement entre le texte hébreu et le logo */
+  font-family: ;
+}
+
+.logo {
+  width: auto; /* Ajustez la largeur selon vos besoins */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+  align-self: center; /* Centre verticalement */
+  margin-bottom: 2vw; /* Réduit l'espacement entre le logo et le texte en bas */
+}
+
+#bzd {
+  font-size: 3vw;
+  margin-bottom: 0vw; /* Réduit l'espacement entre le texte "בס״ד" et le texte hébreu */
+}
+
+.annonce{
+  font-family: "Brush Script MT", sans-serif;
+  color: #8db6bb;
+  font-size: 8vw;
+  text-align: center;
+  max-width: 85%;
+}
+.barMitzvah{
+  color: #eeb646;
+  font-size: 12vw;
+  font-family: "Berlin Sans FB" , sans-serif;
+}
+
+#saveTheDate {
+  background-image: url("/img/background-Kotel.jpg");
+  box-shadow: inset 0.1vw 0.1vw 0.1vw 0.1vw #eeb646;
+  display: flex;
+  flex-direction: column; /* Arrange les éléments en colonne */
+  justify-content: center; /* Centre verticalement */
+  align-items: center; /* Centre horizontalement */
+}
+
+#decompte {
+  display: flex; /* Aligne les éléments en ligne */
+  justify-content: center; /* Centre horizontalement */
+}
+
+.countdown-item {
+  margin: 1vw; /* Espacement entre les éléments du compte à rebours */
+  width: 15vw; /* Largeur relative en fonction de la largeur de la vue */
+  height: 15vw; /* Hauteur relative en fonction de la largeur de la vue */
+  background-color: #eeb646; /* Couleur de fond verte */
+  color: white; /* Couleur de texte blanc */
+  font-size: 4vw; /* Taille de la police relative en fonction de la largeur de la vue */
+  text-align: center; /* Centrage du contenu */
+  line-height: 15vw; /* Alignement vertical */
+  border-radius: 10px; /* Bordure arrondie */
+}
+
+
+#textSaveTheDate {
+  font-family: "Berlin Sans FB", sans-serif;
+  color: #8db6bb;
+  font-size: 10vw;
+  margin-bottom: 2vw; /* Espacement par rapport au compte à rebours */
+}
+
+.element{
+  margin-right: 2vw; /* Espacement entre les éléments du compte à rebours */
+  margin-top: 2vw; /* Espacement entre les éléments du compte à rebours */
+
+  width: 15vw; /* Largeur relative en fonction de la largeur de la vue */
+  height: 15vw; /* Hauteur relative en fonction de la largeur de la vue */
+  color: #8db6bb; /* Couleur de texte blanc */
+  font-size: 5vw; /* Taille de la police relative en fonction de la largeur de la vue */
+  text-align: center; /* Centrage du contenu */
+  line-height: 15vw; /* Alignement vertical */
+  border-radius: 10px; /* Bordure arrondie */
+  font-family: "Brush Script MT", sans-serif;
+
+}
+#temps{
+  display: flex; /* Aligne les éléments en ligne */
+}
+
+#secondePartie {
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/background-Kotel.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  flex-direction: column; /* Arrange les éléments en colonne */
+  box-shadow: inset 0.1vw 0.1vw 0.1vw 0.1vw #eeb646;
+
+
+}
+.lien {
+  text-align: center; /* Centrer le bouton horizontalement */
+}
+
+.lien a {
+  display: inline-block; /* Afficher en ligne pour pouvoir définir la largeur */
+  padding: 10px 20px; /* Espacement à l'intérieur du bouton */
+  background-color: #dab984; /* Couleur de fond beige foncé */
+  color: white; /* Couleur du texte en blanc */
+  text-decoration: none; /* Supprimer le soulignement du lien */
+  border-radius: 10px; /* Bords arrondis */
+  transition: background-color 0.3s; /* Transition pour l'animation du survol */
+}
+
+.lien a:hover {
+  background-color: #d3b17a; /* Changement de couleur de fond au survol */
+}
+#troisiemePartie {
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/background-Kotel.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  flex-direction: column; /* Arrange les éléments en colonne */
+  box-shadow: inset 0.1vw 0.1vw 0.1vw 0.1vw #eeb646;
+
+}
+#partieChabbat {
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/background-Kotel.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  flex-direction: column; /* Arrange les éléments en colonne */
+  box-shadow: inset 0.1vw 0.1vw 0.1vw 0.1vw #eeb646;
+
+
+}
+
+/* Styles à personnaliser selon vos préférences */
+#page-intro {
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/background-Kotel.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  flex-direction: column; /* Arrange les éléments en colonne */
+  margin-top: 20vw;
+}
+
+#show-invitation {
+  margin-top: 5vw;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #8B4513;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 2vw;
+  text-align: center; /* Centrer horizontalement */
+}
+
+
+
+
+
+
+
