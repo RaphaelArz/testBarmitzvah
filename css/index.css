@@ -91,7 +91,7 @@ body{
   height: 15vw; /* Hauteur relative en fonction de la largeur de la vue */
   background-color: #eeb646; /* Couleur de fond verte */
   color: white; /* Couleur de texte blanc */
-  font-size: 4vw; /* Taille de la police relative en fonction de la largeur de la vue */
+  font-size: 6vw; /* Taille de la police relative en fonction de la largeur de la vue */
   text-align: center; /* Centrage du contenu */
   line-height: 15vw; /* Alignement vertical */
   border-radius: 10px; /* Bordure arrondie */
